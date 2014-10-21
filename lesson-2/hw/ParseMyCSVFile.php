@@ -26,7 +26,7 @@ class ParseMyCSVFile {
 	public function GetCSVFile(){
 		$this->dataFromFile = fgetcsv($this->fileHandler, $this->delimiterSimbol);
 		return $this->dataFromFile;
-	}
+	}	
 
 	public function ParseFile(){
 		if ($this->GetFile() !== FALSE) {
