@@ -1,10 +1,8 @@
 <?php
-namespace NS;
 
-include 'ObservableInterface.php';
-include 'ObserverInterface.php';
-include 'UserList.php';
-include 'UserListLogger.php';
+spl_autoload_register(function ($class) {
+    include 'src/' . $class . '.php';
+});
 
 $ul = new UserList();
 $ul->addObserver(new UserListLogger());

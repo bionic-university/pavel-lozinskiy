@@ -1,5 +1,4 @@
 <?php
-namespace NS;
 
 interface ObservableInterface
 {

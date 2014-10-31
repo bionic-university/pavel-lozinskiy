@@ -1,5 +1,4 @@
 <?php
-namespace NS;
 
 class UserList implements ObservableInterface
 {
@@ -15,5 +14,6 @@ class UserList implements ObservableInterface
     public function addObserver($observer)
     {
         $this->_observers[] = $observer;
+
     }
 }
