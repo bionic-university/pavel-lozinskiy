@@ -1,0 +1,13 @@
+{
+    "authors": [
+        {
+            "name": "Loza",
+            "email": "slayter007@gmail.com"
+        }
+    ],
+   "autoload": {
+        "psr-4": {
+
+        }
+    }
+}
