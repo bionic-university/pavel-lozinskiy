@@ -2,6 +2,7 @@
 
 class President implements RevisionInterface, SanitizeInterface, ObservableInterface
 {
+
     private $document = null;
     private $docTypeSign = null;
     private $docTypeCorrect = null;
@@ -40,7 +41,6 @@ class President implements RevisionInterface, SanitizeInterface, ObservableInter
     public function addObserver($observer)
     {
         $this->_observers[] = $observer;
-
     }
 
 }
